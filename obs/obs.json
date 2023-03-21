@@ -1,0 +1,956 @@
+{
+	"DesktopAudioDevice1": {
+		"balance": 0.5,
+		"deinterlace_field_order": 0,
+		"deinterlace_mode": 0,
+		"enabled": true,
+		"flags": 0,
+		"hotkeys": {
+			"libobs.mute": [],
+			"libobs.push-to-mute": [],
+			"libobs.push-to-talk": [],
+			"libobs.unmute": []
+		},
+		"id": "pulse_output_capture",
+		"mixers": 255,
+		"monitoring_type": 0,
+		"muted": false,
+		"name": "Audio del desktop",
+		"prev_ver": 486539266,
+		"private_settings": {},
+		"push-to-mute": false,
+		"push-to-mute-delay": 0,
+		"push-to-talk": false,
+		"push-to-talk-delay": 0,
+		"settings": {
+			"device_id": "default"
+		},
+		"sync": 0,
+		"versioned_id": "pulse_output_capture",
+		"volume": 1.0
+	},
+	"current_program_scene": "Scena Principale",
+	"current_scene": "Scena Principale",
+	"current_transition": "Dissolvenza",
+	"groups": [],
+	"modules": {
+		"auto-scene-switcher": {
+			"active": false,
+			"interval": 300,
+			"non_matching_scene": "",
+			"switch_if_not_matching": false,
+			"switches": []
+		},
+		"output-timer": {
+			"autoStartRecordTimer": false,
+			"autoStartStreamTimer": false,
+			"pauseRecordTimer": true,
+			"recordTimerHours": 0,
+			"recordTimerMinutes": 0,
+			"recordTimerSeconds": 30,
+			"streamTimerHours": 0,
+			"streamTimerMinutes": 0,
+			"streamTimerSeconds": 30
+		},
+		"scripts-tool": [
+			{
+				"path": "/usr/share/obs/obs-plugins/frontend-tools/scripts/clock-source.lua",
+				"settings": {}
+			},
+			{
+				"path": "/usr/share/obs/obs-plugins/frontend-tools/scripts/countdown.lua",
+				"settings": {
+					"reset_hotkey": []
+				}
+			},
+			{
+				"path": "/home/regia/webradio/obs/date-and-time.lua",
+				"settings": {
+					"format_string": "%x %n%R",
+					"source": "Data"
+				}
+			}
+		]
+	},
+	"name": "Senza titolo",
+	"preview_locked": false,
+	"quick_transitions": [
+		{
+			"duration": 300,
+			"fade_to_black": false,
+			"hotkeys": [],
+			"id": 1,
+			"name": "Taglio"
+		},
+		{
+			"duration": 300,
+			"fade_to_black": false,
+			"hotkeys": [],
+			"id": 2,
+			"name": "Dissolvenza"
+		},
+		{
+			"duration": 300,
+			"fade_to_black": true,
+			"hotkeys": [],
+			"id": 3,
+			"name": "Dissolvenza"
+		}
+	],
+	"saved_projectors": [],
+	"scaling_enabled": false,
+	"scaling_level": 0,
+	"scaling_off_x": 0.0,
+	"scaling_off_y": 0.0,
+	"scene_order": [
+		{
+			"name": "Scena Principale"
+		},
+		{
+			"name": "Scena Sport"
+		},
+		{
+			"name": "Scena Kahoot"
+		}
+	],
+	"sources": [
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"flags": 0,
+			"hotkeys": {},
+			"id": "xcomposite_input",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Kahoot",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"capture_window": "192937987\r\nSpotify\r\nspotify",
+				"exclude_alpha": false,
+				"include_border": false,
+				"show_cursor": false,
+				"swap_redblue": false
+			},
+			"sync": 0,
+			"versioned_id": "xcomposite_input",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"flags": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.hide_scene_item.Kahoot": [],
+				"libobs.hide_scene_item.Sfondo Sport 2": [],
+				"libobs.show_scene_item.Kahoot": [],
+				"libobs.show_scene_item.Sfondo Sport 2": []
+			},
+			"id": "scene",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Scena Kahoot",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"custom_size": false,
+				"id_counter": 4,
+				"items": [
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 3,
+						"locked": false,
+						"name": "Sfondo Sport 2",
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": true
+					},
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 2,
+						"locked": false,
+						"name": "Kahoot",
+						"pos": {
+							"x": 0.0,
+							"y": 31.5
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": true
+					}
+				]
+			},
+			"sync": 0,
+			"versioned_id": "scene",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"filters": [
+				{
+					"balance": 0.5,
+					"deinterlace_field_order": 0,
+					"deinterlace_mode": 0,
+					"enabled": true,
+					"flags": 0,
+					"hotkeys": {},
+					"id": "scroll_filter",
+					"mixers": 0,
+					"monitoring_type": 0,
+					"muted": false,
+					"name": "Scorrimento",
+					"prev_ver": 486539266,
+					"private_settings": {},
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"settings": {
+						"speed_x": 0.0
+					},
+					"sync": 0,
+					"versioned_id": "scroll_filter",
+					"volume": 1.0
+				}
+			],
+			"flags": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.hide_scene_item.Data": [],
+				"libobs.hide_scene_item.Principale": [],
+				"libobs.hide_scene_item.Sfondo": [],
+				"libobs.hide_scene_item.Testo giornalino": [],
+				"libobs.show_scene_item.Data": [],
+				"libobs.show_scene_item.Principale": [],
+				"libobs.show_scene_item.Sfondo": [],
+				"libobs.show_scene_item.Testo giornalino": []
+			},
+			"id": "scene",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Scena Principale",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"custom_size": false,
+				"id_counter": 11,
+				"items": [
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 11,
+						"locked": true,
+						"name": "Sfondo",
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": true
+					},
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 7,
+						"locked": true,
+						"name": "Principale",
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": true
+					},
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 8,
+						"locked": false,
+						"name": "Testo giornalino",
+						"pos": {
+							"x": 0.0,
+							"y": 1009.0
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 0.20063693821430206,
+							"y": 0.20062695443630219
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": true
+					},
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 10,
+						"locked": false,
+						"name": "Data",
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 0.2320762574672699,
+							"y": 0.23371647298336029
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": true
+					}
+				]
+			},
+			"sync": 0,
+			"versioned_id": "scene",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"flags": 0,
+			"hotkeys": {},
+			"id": "image_source",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Principale",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"file": "/home/regia/webradio/obs/Principale.png"
+			},
+			"sync": 0,
+			"versioned_id": "image_source",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"filters": [
+				{
+					"balance": 0.5,
+					"deinterlace_field_order": 0,
+					"deinterlace_mode": 0,
+					"enabled": true,
+					"flags": 0,
+					"hotkeys": {},
+					"id": "scroll_filter",
+					"mixers": 0,
+					"monitoring_type": 0,
+					"muted": false,
+					"name": "Scorrimento",
+					"prev_ver": 486539266,
+					"private_settings": {},
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"settings": {
+						"speed_x": 140.0
+					},
+					"sync": 0,
+					"versioned_id": "scroll_filter",
+					"volume": 1.0
+				}
+			],
+			"flags": 0,
+			"hotkeys": {},
+			"id": "text_ft2_source",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Testo giornalino",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"font": {
+					"face": "Sans Serif",
+					"flags": 0,
+					"size": 256,
+					"style": ""
+				},
+				"from_file": false,
+				"log_mode": false,
+				"text": "Leggi i nuovi articoli de \"Il Giornale di Ugo\"! Li trovi su ilgiornalediugo.itiseveripadova.edu.it   -   ",
+				"undo_sname": "Testo giornalino",
+				"word_wrap": true
+			},
+			"sync": 0,
+			"versioned_id": "text_ft2_source_v2",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"flags": 0,
+			"hotkeys": {},
+			"id": "text_ft2_source",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Data",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"color1": 4278190080,
+				"color2": 4278190080,
+				"text": "20/03/2023 \n18:55"
+			},
+			"sync": 0,
+			"versioned_id": "text_ft2_source_v2",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"flags": 0,
+			"hotkeys": {},
+			"id": "image_source",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Sfondo",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"file": "/home/regia/webradio/obs/Sfondo.png"
+			},
+			"sync": 0,
+			"versioned_id": "image_source",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"filters": [
+				{
+					"balance": 0.5,
+					"deinterlace_field_order": 0,
+					"deinterlace_mode": 0,
+					"enabled": true,
+					"flags": 0,
+					"hotkeys": {},
+					"id": "scroll_filter",
+					"mixers": 0,
+					"monitoring_type": 0,
+					"muted": false,
+					"name": "Scorrimento",
+					"prev_ver": 486539266,
+					"private_settings": {},
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"settings": {
+						"speed_x": 0.0
+					},
+					"sync": 0,
+					"versioned_id": "scroll_filter",
+					"volume": 1.0
+				}
+			],
+			"flags": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.hide_scene_item.Sfondo Sport": [],
+				"libobs.hide_scene_item.Sport": [],
+				"libobs.hide_scene_item.Video sport": [],
+				"libobs.show_scene_item.Sfondo Sport": [],
+				"libobs.show_scene_item.Sport": [],
+				"libobs.show_scene_item.Video sport": []
+			},
+			"id": "scene",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Scena Sport",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"custom_size": false,
+				"id_counter": 9,
+				"items": [
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 6,
+						"locked": true,
+						"name": "Sfondo Sport",
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": true
+					},
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 7,
+						"locked": false,
+						"name": "Video sport",
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": false
+					},
+					{
+						"align": 5,
+						"blend_method": "default",
+						"blend_type": "normal",
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"bounds_align": 0,
+						"bounds_type": 0,
+						"crop_bottom": 0,
+						"crop_left": 0,
+						"crop_right": 0,
+						"crop_top": 0,
+						"group_item_backup": false,
+						"hide_transition": {
+							"duration": 0
+						},
+						"id": 5,
+						"locked": true,
+						"name": "Sport",
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"private_settings": {},
+						"rot": 0.0,
+						"scale": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"scale_filter": "disable",
+						"show_transition": {
+							"duration": 0
+						},
+						"visible": true
+					}
+				]
+			},
+			"sync": 0,
+			"versioned_id": "scene",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"flags": 0,
+			"hotkeys": {},
+			"id": "image_source",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Sport",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"file": "/home/regia/webradio/obs/Sport.png"
+			},
+			"sync": 0,
+			"versioned_id": "image_source",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"filters": [
+				{
+					"balance": 0.5,
+					"deinterlace_field_order": 0,
+					"deinterlace_mode": 0,
+					"enabled": true,
+					"flags": 0,
+					"hotkeys": {},
+					"id": "color_filter",
+					"mixers": 0,
+					"monitoring_type": 0,
+					"muted": false,
+					"name": "Correzione colore",
+					"prev_ver": 486539266,
+					"private_settings": {},
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"settings": {
+						"brightness": 0.0,
+						"contrast": -0.63,
+						"gamma": -1.3400000000000001,
+						"hue_shift": 0.0,
+						"opacity": 1.0
+					},
+					"sync": 0,
+					"versioned_id": "color_filter_v2",
+					"volume": 1.0
+				}
+			],
+			"flags": 0,
+			"hotkeys": {},
+			"id": "image_source",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Sfondo Sport",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"file": "/home/regia/webradio/obs/Sfondo.png"
+			},
+			"sync": 0,
+			"versioned_id": "image_source",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"flags": 0,
+			"hotkeys": {
+				"MediaSource.Pause": [],
+				"MediaSource.Play": [],
+				"MediaSource.Restart": [],
+				"MediaSource.Stop": [],
+				"libobs.mute": [],
+				"libobs.push-to-mute": [],
+				"libobs.push-to-talk": [],
+				"libobs.unmute": []
+			},
+			"id": "ffmpeg_source",
+			"mixers": 255,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Video sport",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"is_local_file": false,
+				"local_file": "",
+				"restart_on_activate": true
+			},
+			"sync": 0,
+			"versioned_id": "ffmpeg_source",
+			"volume": 1.0
+		},
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+			"deinterlace_mode": 0,
+			"enabled": true,
+			"filters": [
+				{
+					"balance": 0.5,
+					"deinterlace_field_order": 0,
+					"deinterlace_mode": 0,
+					"enabled": true,
+					"flags": 0,
+					"hotkeys": {},
+					"id": "color_filter",
+					"mixers": 0,
+					"monitoring_type": 0,
+					"muted": false,
+					"name": "Correzione colore",
+					"prev_ver": 486539266,
+					"private_settings": {},
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"settings": {
+						"brightness": 0.0,
+						"contrast": -0.63,
+						"gamma": -1.3400000000000001,
+						"hue_shift": -15.1,
+						"opacity": 1.0
+					},
+					"sync": 0,
+					"versioned_id": "color_filter_v2",
+					"volume": 1.0
+				}
+			],
+			"flags": 0,
+			"hotkeys": {},
+			"id": "image_source",
+			"mixers": 0,
+			"monitoring_type": 0,
+			"muted": false,
+			"name": "Sfondo Sport 2",
+			"prev_ver": 486539266,
+			"private_settings": {},
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"settings": {
+				"file": "/home/regia/webradio/obs/Sfondo.png"
+			},
+			"sync": 0,
+			"versioned_id": "image_source",
+			"volume": 1.0
+		}
+	],
+	"transition_duration": 300,
+	"transitions": []
+}
