@@ -1,3 +1,6 @@
+-- Author: https://obsproject.com/forum/members/ragowit.28331/
+-- The author didn't specify the license of the file
+
 obs           = obslua
 source_name   = ""
 
